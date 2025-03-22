@@ -1,0 +1,119 @@
+/* 🎤 Speaker Section Styling */
+.speaker-section {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    padding: 50px 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+    margin-top: 20px; /* ✅ Adds space below the toggle button */
+  }
+  
+  
+  /* ✨ Fancy Section Title */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 8px;
+  }
+  
+  /* 🔥 Animated Underline */
+  .underline {
+    width: 100px;
+    height: 5px;
+    background-color: #ffcc00;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    animation: glow 1.5s infinite alternate;
+  }
+  
+  /* 🌟 Speaker Grid */
+  .speaker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+  }
+  
+  /* 📌 Speaker Card */
+  .speaker-card {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    padding: 25px;
+    border-radius: 12px;
+    width: 270px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .speaker-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 204, 0, 0.6);
+  }
+  
+  /* 🖼 Speaker Image */
+  .speaker-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #ffcc00;
+  }
+  
+  /* 🏆 Speaker Name */
+  .speaker-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 5px;
+  }
+  
+  /* 🎯 Speaker Topic */
+  .speaker-topic {
+    font-size: 18px;
+    color: #ddd;
+    font-style: italic;
+  }
+  
+  /* 💡 Event Highlight */
+  .event-highlight {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 40px;
+    animation: pulse 1.5s infinite alternate;
+  }
+  
+  /* 🔥 Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px #ffcc00;
+    }
+    to {
+      box-shadow: 0 0 20px #ffcc00;
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      opacity: 0.7;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

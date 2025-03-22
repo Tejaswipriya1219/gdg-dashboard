@@ -1,0 +1,63 @@
+.app-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    height: 100vh;
+  }
+  
+  .dashboard h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .countdown-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .countdown-box {
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .celebrate-container {
+    margin-top: 20px;
+  }
+  
+  .celebrate-btn {
+    background: linear-gradient(45deg, #28a745, #00c853);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .speaker-item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+    transition: 0.3s;
+  }
+  
+  .speaker-item:hover {
+    background: #f4f4f4;
+    transform: scale(1.05);
+  }
+  
+  .loading-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  

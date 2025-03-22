@@ -1,0 +1,69 @@
+.register-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #0F9D58, #34A853);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.register-form input {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+}
+
+.register-btn {
+    background: #FBBC05;
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-btn:hover {
+    background: #EA4335;
+    color: white;
+}
+
+.celebration-message {
+    background: white;
+    color: #34A853;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    animation: popUp 0.5s ease-in-out;
+}
+
+@keyframes popUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
