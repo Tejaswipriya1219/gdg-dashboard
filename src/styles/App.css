@@ -13,7 +13,7 @@
 }
 
 
-/* 🎯 GDG Logo */
+
 .gdg-logo {
     display: block;
     margin: 15px auto;
@@ -21,10 +21,10 @@
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
 }
 
-/* 🚀 Event Countdown Box (Positioned Left Middle) */
 
 
-/* 🎯 Buttons */
+
+
 .buttons-container {
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@
     background-color: #1E8E3E;
 }
 
-/* 📝 Registration Form */
+
 .registration-form {
     margin-top: 20px;
     padding: 20px;
@@ -120,7 +120,7 @@
     transform: scale(1.05);
 }
 
-/* 🎉 Celebration Effect */
+
 .celebration-container {
     position: fixed;
     top: 50%;
@@ -138,7 +138,6 @@
     margin-top: 20px;
 }
 
-/* 🎆 Animation */
 @keyframes popIn {
     from {
         opacity: 0;
@@ -221,7 +220,7 @@ body {
     animation: glow 1.5s infinite alternate;
 }
 
-/* ✨ Add Glowing Effect */
+
 @keyframes glow {
     0% {
         text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -231,10 +230,10 @@ body {
     }
 }
 
-/* 🔥 Firefox Fix (Alternative) */
+
 @supports not (-webkit-background-clip: text) {
     .dashboard-title {
-        color: #EA4335; /* Default solid fallback color */
+        color: #EA4335; 
     }
 }
 

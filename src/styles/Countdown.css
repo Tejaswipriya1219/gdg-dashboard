@@ -1,13 +1,13 @@
 .countdown-container {
     position: absolute;
     
-    width: 50px;  /* ✅ Reduced width to make it smaller */
-    height: 50px; /* ✅ Ensures a perfect square */
+    width: 50px;  
+    height: 50px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1A73E8, #34A853); /* GDG Blue & Green */
+    background: linear-gradient(135deg, #1A73E8, #34A853); 
     border-radius: 10px;
     color: rgba(119, 19, 19, 0.952);
     text-align: center;
@@ -16,32 +16,32 @@
 
 
 .event-start-text {
-    font-size: 12px;  /* ✅ Made text smaller */
+    font-size: 12px;  
     font-weight: bold;
     color: rgb(219, 230, 232);
     text-transform: uppercase;
     margin-bottom: 5px;
 }
 .countdown-timer {
-    font-size: 14px;  /* ✅ Reduced size for a small box */
+    font-size: 14px;  
     font-weight: bold;
     color: rgb(228, 10, 10);
     margin-bottom: 3px;
 }
 .time {
-    font-size: 18px;  /* ✅ Small but readable */
+    font-size: 18px;  
     font-weight: bold;
     color: #a04f56;
     display: block;
 }
 .label {
-    font-size: 12px;  /* ✅ Smaller label */
+    font-size: 12px;  
     color: #ebe0e7;
     font-style: italic;
 }
 .countdown-progress {
     width: 80%;
-    height: 5px; /* ✅ Smaller progress bar */
+    height: 5px; 
     background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     margin-top: 5px;

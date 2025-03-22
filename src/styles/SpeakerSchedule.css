@@ -1,4 +1,4 @@
-/* 🎤 Speaker Section Styling */
+
 .speaker-section {
     background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
     padding: 50px 20px;
@@ -7,11 +7,11 @@
     color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     animation: fadeIn 1s ease-in-out;
-    margin-top: 20px; /* ✅ Adds space below the toggle button */
+    margin-top: 20px; 
   }
   
   
-  /* ✨ Fancy Section Title */
+ 
   .section-title {
     font-size: 36px;
     font-weight: bold;
@@ -19,7 +19,7 @@
     margin-bottom: 8px;
   }
   
-  /* 🔥 Animated Underline */
+  
   .underline {
     width: 100px;
     height: 5px;
@@ -29,7 +29,7 @@
     animation: glow 1.5s infinite alternate;
   }
   
-  /* 🌟 Speaker Grid */
+ 
   .speaker-grid {
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +38,7 @@
     margin-top: 20px;
   }
   
-  /* 📌 Speaker Card */
+ 
   .speaker-card {
     background: linear-gradient(135deg, #1f1c2c, #928dab);
     padding: 25px;
@@ -54,7 +54,7 @@
     box-shadow: 0 10px 25px rgba(255, 204, 0, 0.6);
   }
   
-  /* 🖼 Speaker Image */
+  
   .speaker-img {
     width: 120px;
     height: 120px;
@@ -63,7 +63,7 @@
     border: 4px solid #ffcc00;
   }
   
-  /* 🏆 Speaker Name */
+ 
   .speaker-name {
     font-size: 22px;
     font-weight: bold;
@@ -71,14 +71,14 @@
     margin-bottom: 5px;
   }
   
-  /* 🎯 Speaker Topic */
+  
   .speaker-topic {
     font-size: 18px;
     color: #ddd;
     font-style: italic;
   }
   
-  /* 💡 Event Highlight */
+  
   .event-highlight {
     font-size: 20px;
     font-weight: bold;
@@ -87,7 +87,7 @@
     animation: pulse 1.5s infinite alternate;
   }
   
-  /* 🔥 Animations */
+  
   @keyframes fadeIn {
     from {
       opacity: 0;
