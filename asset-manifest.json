@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gdg-dashboard/static/css/main.25107b74.css",
+    "main.js": "/gdg-dashboard/static/js/main.4dc82c50.js",
+    "static/media/gdg.logo.png": "/gdg-dashboard/static/media/gdg.logo.684486006c049900ad9f.png",
+    "index.html": "/gdg-dashboard/index.html",
+    "main.25107b74.css.map": "/gdg-dashboard/static/css/main.25107b74.css.map",
+    "main.4dc82c50.js.map": "/gdg-dashboard/static/js/main.4dc82c50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25107b74.css",
+    "static/js/main.4dc82c50.js"
+  ]
+}
