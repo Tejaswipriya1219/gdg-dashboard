@@ -3,7 +3,7 @@ import Countdown from "./components/Countdown";
 import SpeakerSchedule from "./components/SpeakerSchedule";
 import EventStats from "./components/EventStats";
 import LoadingScreen from "./components/LoadingScreen";
-import Confetti from "react-confetti"; // 🎉 Import Confetti for celebration effect
+import Confetti from "react-confetti"; 
 import gdgLogo from "./assets/gdg.logo.png";
 import "./styles/App.css";
 
@@ -33,9 +33,9 @@ const App = () => {
     }
 
     setShowCelebration(true);
-    setTimeout(() => setShowCelebration(false), 5000); // 🎉 Hide after 5s
+    setTimeout(() => setShowCelebration(false), 5000); 
 
-    // 🔥 Reset form after submission
+    
     setTimeout(() => {
       setRegistrationData({ name: "", email: "", phone: "" });
       setShowRegister(false);
